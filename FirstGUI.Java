@@ -8,6 +8,6 @@ public class FirstGUI{
         int age = Integer.parseInt(JOptionPane.showInputDialog("How old are you by the way? "));
         JOptionPane.showMessageDialog(null, "Oh cool. You are " + age + " Years old!");
         double GPA = Double.parseDouble(JOptionPane.showInputDialog("What's your current GPA? "));
-        JOptionPane.showMessageDialog(null, "You're GPA is a " + GPA + " Not bad at all!");
+        JOptionPane.showMessageDialog(null, "Your GPA is a " + GPA + " ?" + " Not bad at all!");
     }
 }
