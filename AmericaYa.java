@@ -1,7 +1,7 @@
 public class AmericaYa{
     
     
-    public static void main (String[]args){
+    void main(){
 System.out.println("America yaaaa!");
 System.out.println(" Americaaaaa ");
 System.out.println(" Hallo! Hallo!! Halloooo :3");
