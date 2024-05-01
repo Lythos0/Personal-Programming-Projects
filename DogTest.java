@@ -1,13 +1,13 @@
 
 
-public class Dog {
+public class DogTest {
     // instance field
     String breed;
     String name;
     int age;
   
     // constructor method
-    public Dog(String dogBreed, int dogAge, String dogName) {
+    public DogTest(String dogBreed, int dogAge, String dogName) {
       /*
       value of parameter dogBreed
       assigned to instance field breed
@@ -21,7 +21,7 @@ public class Dog {
       create instance:
       use 'new' operator and invoke constructor
       */
-      Dog fido = new Dog("poodle", 5, "Akisa");
+      DogTest fido = new DogTest("poodle", 5, "Akisa");
       /*
       fields are accessed using:
       the instance name, `.` operator, and the field name.
